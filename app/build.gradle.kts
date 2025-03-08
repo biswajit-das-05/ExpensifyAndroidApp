@@ -6,6 +6,10 @@ android {
     namespace = "com.example.expensify_app"
     compileSdk = 34
 
+    buildFeatures {
+        compose = false  // Disable Jetpack Compose if not needed
+        viewBinding = true  // Enable ViewBinding
+    }
     defaultConfig {
         applicationId = "com.example.expensify_app"
         minSdk = 24
