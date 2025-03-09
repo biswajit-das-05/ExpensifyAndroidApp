@@ -1,19 +1,19 @@
-//package com.example.expensify_app;
+//package com.example.expensify_app.views.activites;
 //
 //import android.os.Bundle;
 //import android.view.Menu;
 //import android.view.SurfaceControl;
 //import android.view.View;
 //
-//import androidx.activity.EdgeToEdge;
 //import androidx.appcompat.app.AppCompatActivity;
-//import androidx.core.graphics.Insets;
-//import androidx.core.view.ViewCompat;
-//import androidx.core.view.WindowInsetsCompat;
 //import androidx.lifecycle.Observer;
 //import androidx.lifecycle.ViewModelProvider;
 //import androidx.recyclerview.widget.LinearLayoutManager;
 //
+//import com.example.expensify_app.adapters.TransactionsAdapter;
+//import com.example.expensify_app.utils.Helper;
+//import com.example.expensify_app.views.fragments.AddTransactionFragment;
+//import com.example.expensify_app.R;
 //import com.example.expensify_app.databinding.ActivityMainBinding;
 //import com.google.android.material.tabs.TabLayout;
 //
