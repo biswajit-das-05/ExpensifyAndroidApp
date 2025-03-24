@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
+
 }
+
 
 android {
     namespace = "com.example.expensify_app"
@@ -45,4 +47,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("io.realm:realm-java:10.18.0") // Kotlin DSL format
+
+
 }
